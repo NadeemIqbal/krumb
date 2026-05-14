@@ -1,0 +1,45 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradlew.bat.bak
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+local.properties
+
+# Kotlin
+.kotlin/
+
+# macOS
+.DS_Store
+
+# Android
+captures/
+*.apk
+*.aab
+*.ap_
+
+# Xcode / iOS
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+Pods/
+
+# Node / Wasm
+node_modules/
+.kotlin-js-store/
+
+# Logs / temp
+*.log
+*.hprof
+*.tmp
