@@ -5,6 +5,7 @@
 **The `sonner` of Compose Multiplatform** — a toast / snackbar / notification library that's callable from anywhere, beautiful by default, and feature-complete.
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.nadeemiqbal/krumb-core?color=4c8bf5&label=Maven%20Central)](https://central.sonatype.com/namespace/io.github.nadeemiqbal)
+[![CI](https://github.com/NadeemIqbal/krumb/actions/workflows/ci.yml/badge.svg)](https://github.com/NadeemIqbal/krumb/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-4c8bf5.svg)](LICENSE)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.1.20-7f52ff?logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-1.7.3-4c8bf5?logo=jetpackcompose&logoColor=white)](https://www.jetbrains.com/lp/compose-multiplatform/)

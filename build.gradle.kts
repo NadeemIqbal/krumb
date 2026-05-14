@@ -14,7 +14,13 @@ plugins {
 // Shared publishing config applied to every module that opts in by applying
 // the `com.vanniktech.maven.publish` plugin (krumb-core / -compose / -material3).
 val krumbGroup = "io.github.nadeemiqbal"
-val krumbVersion = "0.1.0"
+
+// Release version is driven by the git tag on CI: tag `v0.2.0` publishes `0.2.0`.
+// Override locally with `-PkrumbVersion=...`; otherwise dev builds are snapshots.
+val krumbVersion = (System.getenv("KRUMB_RELEASE_VERSION") ?: findProperty("krumbVersion") as String?)
+    ?.removePrefix("v")
+    ?.ifBlank { null }
+    ?: "0.1.0-SNAPSHOT"
 
 subprojects {
     plugins.withId("com.vanniktech.maven.publish") {
