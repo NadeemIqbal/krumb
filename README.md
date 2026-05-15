@@ -12,7 +12,7 @@
 
 **Android** · **iOS** · **Desktop (JVM)** · **Web (Wasm)**
 
-<img src="art/demo.png" width="320" alt="Krumb showing a green success toast" />
+<img src="art/demo.gif" width="320" alt="Krumb toast notifications demo" />
 
 </div>
 
